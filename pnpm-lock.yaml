@@ -11,6 +11,9 @@ importers:
       expo:
         specifier: ~54.0.2
         version: 54.0.2(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0)
+      expo-screen-capture:
+        specifier: ~8.0.7
+        version: 8.0.7(expo@54.0.2(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0))(react@19.1.0)
       expo-status-bar:
         specifier: ~3.0.8
         version: 3.0.8(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0)
@@ -1316,6 +1319,12 @@ packages:
     peerDependencies:
       react: '*'
       react-native: '*'
+
+  expo-screen-capture@8.0.7:
+    resolution: {integrity: sha512-hSgMfvBAI3dTh/2RTRKelooBU9eNg7jeqh/sEH94nql3foH1+uZTmIaUQJ7qDsZaEVOfatEc4mt919onwr0kpw==}
+    peerDependencies:
+      expo: '*'
+      react: '*'
 
   expo-status-bar@3.0.8:
     resolution: {integrity: sha512-L248XKPhum7tvREoS1VfE0H6dPCaGtoUWzRsUv7hGKdiB4cus33Rc0sxkWkoQ77wE8stlnUlL5lvmT0oqZ3ZBw==}
@@ -4239,6 +4248,11 @@ snapshots:
       invariant: 2.2.4
       react: 19.1.0
       react-native: 0.81.4(@babel/core@7.28.4)(react@19.1.0)
+
+  expo-screen-capture@8.0.7(expo@54.0.2(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0))(react@19.1.0):
+    dependencies:
+      expo: 54.0.2(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0)
+      react: 19.1.0
 
   expo-status-bar@3.0.8(react-native@0.81.4(@babel/core@7.28.4)(react@19.1.0))(react@19.1.0):
     dependencies:
